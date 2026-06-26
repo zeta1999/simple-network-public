@@ -1,8 +1,25 @@
-# simple-network
+<p align="center">
+  <img src="assets/logo.svg" alt="simple-network" width="150"/>
+</p>
 
-A small async transport layer with an optional post-quantum secure channel and an optional Tor carrier.
+<h1 align="center">simple-network</h1>
 
-Part of [**simple tools**](https://zeta1999.github.io/renoir42/simple-tools.html) — small, composable Rust libraries for building tooling fast from a harness.
+<p align="center">
+  <strong>A small async transport layer with an optional post-quantum secure channel and an optional Tor carrier.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/part%20of-simple%20tools-00d4ff.svg" alt="part of simple tools">
+  <img src="https://img.shields.io/badge/Rust-2021-orange.svg?logo=rust" alt="Rust">
+  <img src="https://img.shields.io/badge/status-released-success.svg" alt="released">
+  <img src="https://img.shields.io/badge/secure%20channel-PQC-purple.svg" alt="PQC">
+  <img src="https://img.shields.io/badge/carrier-Tor-7d4698.svg" alt="Tor">
+  <img src="https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg" alt="license">
+</p>
+
+> Part of [**simple tools**](https://zeta1999.github.io/renoir42/simple-tools.html) — small, composable Rust libraries for building tooling fast from a harness.
+
+---
 
 ## Features
 
