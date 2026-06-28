@@ -1,4 +1,6 @@
 pub mod cluster;
+#[cfg(feature = "i2p")]
+pub mod i2p;
 pub mod middleware;
 pub mod port_forward;
 pub mod quic;

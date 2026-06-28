@@ -39,6 +39,11 @@ pqc = ["dep:secure-memory", "dep:serde", "dep:serde_json", "dep:zeroize"]
 # arti. Heavy dependency tree and needs a live Tor network to exercise, so it
 # is off by default and excluded from the lean build.
 tor = ["dep:arti-client", "dep:tor-hsservice", "dep:tor-cell", "dep:tor-rtcompat", "dep:tor-proto", "dep:safelog", "dep:futures"]
+# I2P carrier (feature `i2p`): client connect + inbound accept by speaking SAM
+# v3 to a locally running router (i2pd / Java I2P, default 127.0.0.1:7656). No
+# pure-Rust router exists, so this needs a live router and is off by default; it
+# pulls in no extra crates (SAM is spoken directly over tokio sockets).
+i2p = []
 
 [build-dependencies]
 cxx-build = "1.0.194"
